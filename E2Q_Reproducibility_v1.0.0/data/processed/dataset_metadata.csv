@@ -1,0 +1,4 @@
+dataset,fit_n,val_n,test_n,noisy_test_n,positive_rate_fit,pca_explained_variance_sum
+breast_cancer,160,80,80,64,0.625,0.7978779884774667
+iris_binary,64,16,20,20,0.5,0.9999999999999999
+digits_01,160,58,72,64,0.50625,0.6279078090544191

@@ -1,0 +1,63 @@
+{
+  "datasets": [
+    "breast_cancer",
+    "iris_binary",
+    "digits_01"
+  ],
+  "backends": [
+    "ibm_fez",
+    "ibm_kingston",
+    "ibm_marrakesh"
+  ],
+  "physical_path": [
+    0,
+    1,
+    2,
+    3
+  ],
+  "calibration_indices": [
+    0,
+    2,
+    4,
+    7
+  ],
+  "data_split_seed": 17,
+  "train_seeds": [
+    17,
+    29,
+    43,
+    71,
+    101
+  ],
+  "noisy_seeds": [
+    17,
+    43,
+    101
+  ],
+  "train_maxiter": 20,
+  "max_fit": 160,
+  "max_val": 80,
+  "max_test": 80,
+  "max_noisy_test": 64,
+  "panel_ids": [
+    "A000",
+    "A003",
+    "A013",
+    "A015",
+    "A018",
+    "A020",
+    "A022",
+    "A025",
+    "A037",
+    "A040",
+    "A042",
+    "A045",
+    "A047",
+    "A058",
+    "A059",
+    "A063"
+  ],
+  "source_bundle_sha256": "11ab9a6ea044d9b37705e69ba6e8e5ba80a396507fca7a88fe3b897613a1727b",
+  "proxy": "E2Q",
+  "decision_gate": "H1 & H2 & H3 & family robustness"
+}

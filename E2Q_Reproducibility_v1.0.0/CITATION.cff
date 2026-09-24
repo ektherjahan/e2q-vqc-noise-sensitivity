@@ -1,0 +1,26 @@
+cff-version: 1.2.0
+message: "If you use this reproducibility package, please cite this software release and the associated manuscript."
+title: "E2Q: Calibration-Weighted Two-Qubit Exposure for Screening Noise Sensitivity in Variational Quantum Classifiers - Reproducibility Package"
+version: 1.0.0
+date-released: 2026-09-21
+type: software
+license: MIT
+abstract: >-
+  Reproducibility package for E2Q, a calibration-weighted two-qubit exposure proxy
+  for screening noise-induced probability distortion in variational quantum classifiers.
+  The release contains the full benchmark notebook, frozen processed evidence tables,
+  calibration provenance, benchmark configuration, figures, and integrity checks.
+authors:
+  - given-names: Ekther
+    family-names: Jahan
+    affiliation: "Department of Computer Science and Engineering, Bangladesh University, Dhaka, Bangladesh"
+  - given-names: "Md. Hasibul Hassan"
+    family-names: Himal
+    affiliation: "Department of Computer Science and Engineering, Bangladesh University, Dhaka, Bangladesh"
+keywords:
+  - quantum machine learning
+  - variational quantum classifier
+  - quantum noise
+  - calibration-aware proxy
+  - IBM Quantum calibration
+  - reproducibility

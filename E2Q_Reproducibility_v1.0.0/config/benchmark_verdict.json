@@ -1,0 +1,31 @@
+{
+  "verdict": "PASS",
+  "proxy": "E2Q",
+  "H1_predictive_validity": true,
+  "H2_calibration_value_add": true,
+  "H3_temporal_sensitivity": true,
+  "family_robustness": true,
+  "h1_positive_cells": 9,
+  "h1_rho_ge_0_40_cells": 8,
+  "h2_cells_beating_both_structural_baselines": 9,
+  "h2_median_rho_advantage": 0.2079189512354706,
+  "h2_fisher_z_advantage_ci90": [
+    0.24285951979939688,
+    0.560981084691581
+  ],
+  "h3_positive_cells": 9,
+  "h3_rho_ge_0_30_cells": 9,
+  "family_positive_checks": 36,
+  "family_total_checks": 36,
+  "pooled_e2q_rho": 0.7043635826283845,
+  "pooled_e2q_ci95": [
+    0.5472134245702553,
+    0.8288997914261623
+  ],
+  "pooled_temporal_rho": 0.780746065143413,
+  "pooled_temporal_ci95": [
+    0.6136239991698901,
+    0.8812149463013192
+  ],
+  "frozen_gate": "H1 & H2 & H3 & family robustness"
+}
